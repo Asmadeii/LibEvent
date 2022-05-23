@@ -1,0 +1,101 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <_LastSelectedProfileId>C:\Users\Asmadei\source\repos\LibEvent\Properties\PublishProfiles\FolderProfile.pubxml</_LastSelectedProfileId>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Update="addEvCalendar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="BankView.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="BillCustomer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="BillExecutor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="ContractCond.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Contractdocs.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Contracts.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Customer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="CustomerFace.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Directory.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Equipdocs.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Equipment.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Eventdocs.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Events.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Executor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="ExecutorFace.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Facildocs.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Facilities.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="LoginForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="MainMenu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Pricedocs.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Pricelist.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Room.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Roomdocs.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Room_1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Room_2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Room_3.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Servdocs.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Services.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="UserControlBlank.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="UserControlDays.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+  </ItemGroup>
+</Project>
