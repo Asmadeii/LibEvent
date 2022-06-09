@@ -21,11 +21,6 @@ namespace LibEvent
             fEvBox.Text = "Ввести время и название мероприятия";
             fEvBox.ForeColor = Color.Gray;
 
-            sEvBox.Text = "Ввести время и название мероприятия";
-            sEvBox.ForeColor = Color.Gray;
-
-            tEvBox.Text = "Ввести время и название мероприятия";
-            tEvBox.ForeColor = Color.Gray;
         }       
 
         private void fEvBox_Enter(object sender, EventArgs e)
@@ -45,39 +40,6 @@ namespace LibEvent
             }                
         }
 
-        private void sEvBox_Enter(object sender, EventArgs e)
-        {
-            if (sEvBox.Text == "Ввести время и название мероприятия")
-            {
-                sEvBox.Text = " ";
-                sEvBox.ForeColor = Color.Black;
-            }
-        }
-        private void sEvBox_Leave(object sender, EventArgs e)
-        {
-            if (sEvBox.Text == " ")
-            {
-                sEvBox.Text = "Ввести время и название мероприятия";
-                sEvBox.ForeColor = Color.Gray;
-            }
-        }
-
-        private void tEvBox_Enter(object sender, EventArgs e)
-        {
-            if (tEvBox.Text == "Ввести время и название мероприятия")
-            {
-                tEvBox.Text = " ";
-                tEvBox.ForeColor = Color.Black;
-            }
-        }
-        private void tEvBox_Leave(object sender, EventArgs e)
-        {
-            if (tEvBox.Text == " ")
-            {
-                tEvBox.Text = "Ввести время и название мероприятия";
-                tEvBox.ForeColor = Color.Gray;
-            }
-        }
 
         private void closeButton_Click(object sender, EventArgs e)
         {
