@@ -1,6 +1,6 @@
 ﻿namespace LibEvent
 {
-    partial class Pricedocs
+    partial class InfoPovod
     {
         /// <summary>
         /// Required designer variable.
@@ -28,13 +28,27 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.closeButton = new System.Windows.Forms.Label();
-            this.CondList = new System.Windows.Forms.DataGridView();
-            this.autoLabel = new System.Windows.Forms.Label();
             this.backButton = new System.Windows.Forms.Button();
-            this.БИК = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            ((System.ComponentModel.ISupportInitialize)(this.CondList)).BeginInit();
+            this.closeButton = new System.Windows.Forms.Label();
+            this.autoLabel = new System.Windows.Forms.Label();
+            this.InfoList = new System.Windows.Forms.DataGridView();
+            ((System.ComponentModel.ISupportInitialize)(this.InfoList)).BeginInit();
             this.SuspendLayout();
+            // 
+            // backButton
+            // 
+            this.backButton.AutoSize = true;
+            this.backButton.Font = new System.Drawing.Font("Pobeda", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.backButton.Image = global::LibEvent.Properties.Resources.arrows;
+            this.backButton.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.backButton.Location = new System.Drawing.Point(165, 391);
+            this.backButton.Name = "backButton";
+            this.backButton.Size = new System.Drawing.Size(95, 38);
+            this.backButton.TabIndex = 58;
+            this.backButton.Text = "Назад";
+            this.backButton.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.backButton.UseVisualStyleBackColor = true;
+            this.backButton.Click += new System.EventHandler(this.backButton_Click);
             // 
             // closeButton
             // 
@@ -42,24 +56,12 @@
             this.closeButton.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(200)))), ((int)(((byte)(185)))), ((int)(((byte)(175)))));
             this.closeButton.Cursor = System.Windows.Forms.Cursors.Hand;
             this.closeButton.Font = new System.Drawing.Font("Perpetua Titling MT", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.closeButton.Location = new System.Drawing.Point(439, 0);
+            this.closeButton.Location = new System.Drawing.Point(403, 0);
             this.closeButton.Name = "closeButton";
             this.closeButton.Size = new System.Drawing.Size(21, 19);
-            this.closeButton.TabIndex = 80;
+            this.closeButton.TabIndex = 57;
             this.closeButton.Text = "X";
             this.closeButton.Click += new System.EventHandler(this.closeButton_Click);
-            // 
-            // CondList
-            // 
-            this.CondList.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.AllCells;
-            this.CondList.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(235)))), ((int)(((byte)(226)))), ((int)(((byte)(213)))));
-            this.CondList.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.CondList.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.CondList.Location = new System.Drawing.Point(11, 90);
-            this.CondList.Name = "CondList";
-            this.CondList.RowTemplate.Height = 25;
-            this.CondList.Size = new System.Drawing.Size(437, 203);
-            this.CondList.TabIndex = 79;
             // 
             // autoLabel
             // 
@@ -68,47 +70,41 @@
             this.autoLabel.Font = new System.Drawing.Font("Pobeda", 32.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.autoLabel.Location = new System.Drawing.Point(0, 0);
             this.autoLabel.Name = "autoLabel";
-            this.autoLabel.Size = new System.Drawing.Size(460, 78);
-            this.autoLabel.TabIndex = 77;
-            this.autoLabel.Text = "Вид мероприятий";
+            this.autoLabel.Size = new System.Drawing.Size(424, 100);
+            this.autoLabel.TabIndex = 56;
+            this.autoLabel.Text = "Инфоповод";
             this.autoLabel.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.autoLabel.Click += new System.EventHandler(this.autoLabel_Click);
             // 
-            // backButton
+            // InfoList
             // 
-            this.backButton.AutoSize = true;
-            this.backButton.Font = new System.Drawing.Font("Pobeda", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.backButton.Image = global::LibEvent.Properties.Resources.arrows;
-            this.backButton.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.backButton.Location = new System.Drawing.Point(181, 324);
-            this.backButton.Name = "backButton";
-            this.backButton.Size = new System.Drawing.Size(95, 38);
-            this.backButton.TabIndex = 78;
-            this.backButton.Text = "Назад";
-            this.backButton.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.backButton.UseVisualStyleBackColor = true;
-            this.backButton.Click += new System.EventHandler(this.backButton_Click);
+            this.InfoList.AutoSizeRowsMode = System.Windows.Forms.DataGridViewAutoSizeRowsMode.DisplayedCellsExceptHeaders;
+            this.InfoList.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(235)))), ((int)(((byte)(226)))), ((int)(((byte)(213)))));
+            this.InfoList.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.InfoList.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.InfoList.Location = new System.Drawing.Point(32, 126);
+            this.InfoList.Name = "InfoList";
+            this.InfoList.RowTemplate.Height = 25;
+            this.InfoList.Size = new System.Drawing.Size(361, 238);
+            this.InfoList.TabIndex = 102;
             // 
-            // БИК
-            // 
-            this.БИК.HeaderText = "BIK";
-            this.БИК.Name = "БИК";
-            // 
-            // Pricedocs
+            // InfoPovod
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(235)))), ((int)(((byte)(226)))), ((int)(((byte)(213)))));
-            this.ClientSize = new System.Drawing.Size(460, 374);
-            this.Controls.Add(this.closeButton);
-            this.Controls.Add(this.CondList);
-            this.Controls.Add(this.autoLabel);
+            this.ClientSize = new System.Drawing.Size(424, 439);
+            this.Controls.Add(this.InfoList);
             this.Controls.Add(this.backButton);
+            this.Controls.Add(this.closeButton);
+            this.Controls.Add(this.autoLabel);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
-            this.Name = "Pricedocs";
+            this.HelpButton = true;
+            this.Name = "InfoPovod";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Library Events";
-            this.Load += new System.EventHandler(this.Pricedocs_Load);
-            ((System.ComponentModel.ISupportInitialize)(this.CondList)).EndInit();
+            this.Load += new System.EventHandler(this.InfoPovod_Load);
+            ((System.ComponentModel.ISupportInitialize)(this.InfoList)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -116,10 +112,9 @@
 
         #endregion
 
-        private Label closeButton;
-        private DataGridView CondList;
-        private Label autoLabel;
         private Button backButton;
-        private DataGridViewTextBoxColumn БИК;
+        private Label closeButton;
+        private Label autoLabel;
+        private DataGridView InfoList;
     }
 }

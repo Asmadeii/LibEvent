@@ -88,5 +88,12 @@ namespace LibEvent
         {
 
         }
+
+        private void btnReport_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            Reports reports = new Reports();
+            reports.Show();
+        }
     }
 }

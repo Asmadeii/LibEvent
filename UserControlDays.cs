@@ -23,6 +23,11 @@ namespace LibEvent
         {
             lbdays.Text = numday + " ";
         }     
+
+        public void evnt (string evtext)
+        {
+            text_1.Text = evtext;
+        }
      
         private void lbdays_Click(object sender, EventArgs e)
         {

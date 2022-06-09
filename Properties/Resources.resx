@@ -121,6 +121,9 @@
   <data name="exec" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\images\exec.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="report" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\report.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="event" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\images\event.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -156,6 +159,9 @@
   </data>
   <data name="user_" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\images\user_.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="healthcare" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\healthcare.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="rewind" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\images\rewind.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -220,14 +226,14 @@
   <data name="air" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\images\air.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="arrows" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\images\arrows.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="price" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\images\price.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="gamezone" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\images\gamezone.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="informative" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\informative.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="tech" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\images\tech.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -235,11 +241,14 @@
   <data name="next" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\images\next.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="projector" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\projector.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="directory" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\directory.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="music" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\images\music.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="saturday" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\images\saturday.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="docs" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\images\docs.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -250,8 +259,8 @@
   <data name="directory1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\images\directory.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="place" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\images\place.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="saturday" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\saturday.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Password" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\images\Password.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -289,11 +298,11 @@
   <data name="thursday" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\images\thursday.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="place" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\place.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="admin" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\images\admin.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="pcroom" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\images\pcroom.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="series" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\images\series.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -334,8 +343,8 @@
   <data name="contract1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\images\contract.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="directory" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\images\directory.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="arrows" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\arrows.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="pc" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\images\pc.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -361,8 +370,8 @@
   <data name="servic" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\images\servic.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="lock_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\images\lock_2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="list" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\list.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="printer" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\images\printer.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -391,16 +400,16 @@
   <data name="lock" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\images\lock.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="healthcare" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\images\healthcare.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="pcroom" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\pcroom.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="enter" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\images\enter.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="projector" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\images\projector.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="lock_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\lock_2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="report" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\images\report.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="deal" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\deal.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

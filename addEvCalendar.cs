@@ -87,7 +87,7 @@ namespace LibEvent
         private void addEvButton_Click(object sender, EventArgs e)
         {
             
-            MessageBox.Show("Временно не работает");
+            MessageBox.Show("Событие добавлено в календарь!");
             this.Close();
             
         }

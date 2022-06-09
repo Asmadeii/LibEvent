@@ -29,9 +29,9 @@
         private void InitializeComponent()
         {
             this.lbdays = new System.Windows.Forms.Label();
-            this.label1 = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
-            this.label3 = new System.Windows.Forms.Label();
+            this.text_1 = new System.Windows.Forms.Label();
+            this.text_2 = new System.Windows.Forms.Label();
+            this.text_3 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // lbdays
@@ -45,44 +45,44 @@
             this.lbdays.Text = "01";
             this.lbdays.Click += new System.EventHandler(this.lbdays_Click);
             // 
-            // label1
+            // text_1
             // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Pobeda", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label1.Location = new System.Drawing.Point(36, 12);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(14, 17);
-            this.label1.TabIndex = 1;
-            this.label1.Text = "  ";
+            this.text_1.AutoSize = true;
+            this.text_1.Font = new System.Drawing.Font("Pobeda", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.text_1.Location = new System.Drawing.Point(36, 12);
+            this.text_1.Name = "text_1";
+            this.text_1.Size = new System.Drawing.Size(14, 17);
+            this.text_1.TabIndex = 1;
+            this.text_1.Text = "  ";
             // 
-            // label2
+            // text_2
             // 
-            this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Pobeda", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label2.Location = new System.Drawing.Point(36, 34);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(17, 17);
-            this.label2.TabIndex = 2;
-            this.label2.Text = "   ";
+            this.text_2.AutoSize = true;
+            this.text_2.Font = new System.Drawing.Font("Pobeda", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.text_2.Location = new System.Drawing.Point(36, 34);
+            this.text_2.Name = "text_2";
+            this.text_2.Size = new System.Drawing.Size(17, 17);
+            this.text_2.TabIndex = 2;
+            this.text_2.Text = "   ";
             // 
-            // label3
+            // text_3
             // 
-            this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("Pobeda", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label3.Location = new System.Drawing.Point(36, 56);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(17, 17);
-            this.label3.TabIndex = 3;
-            this.label3.Text = "   ";
+            this.text_3.AutoSize = true;
+            this.text_3.Font = new System.Drawing.Font("Pobeda", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.text_3.Location = new System.Drawing.Point(36, 56);
+            this.text_3.Name = "text_3";
+            this.text_3.Size = new System.Drawing.Size(17, 17);
+            this.text_3.TabIndex = 3;
+            this.text_3.Text = "   ";
             // 
             // UserControlDays
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Linen;
-            this.Controls.Add(this.label3);
-            this.Controls.Add(this.label2);
-            this.Controls.Add(this.label1);
+            this.Controls.Add(this.text_3);
+            this.Controls.Add(this.text_2);
+            this.Controls.Add(this.text_1);
             this.Controls.Add(this.lbdays);
             this.Name = "UserControlDays";
             this.Size = new System.Drawing.Size(140, 80);
@@ -95,8 +95,8 @@
         #endregion
 
         private Label lbdays;
-        private Label label1;
-        private Label label2;
-        private Label label3;
+        private Label text_1;
+        private Label text_2;
+        private Label text_3;
     }
 }

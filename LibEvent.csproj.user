@@ -43,6 +43,9 @@
     <Compile Update="Eventdocs.cs">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Update="EventList.cs">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Update="Events.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -58,16 +61,25 @@
     <Compile Update="Facilities.cs">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Update="InfoPovod.cs">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Update="LoginForm.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Update="MainMenu.cs">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Update="Partners.cs">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Update="Pricedocs.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Update="Pricelist.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Reports.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Update="Room.cs">

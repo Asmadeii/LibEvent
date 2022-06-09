@@ -40,7 +40,7 @@
             this.pictureBox3 = new System.Windows.Forms.PictureBox();
             this.priceButton = new System.Windows.Forms.Button();
             this.pictureBox4 = new System.Windows.Forms.PictureBox();
-            this.button1 = new System.Windows.Forms.Button();
+            this.btnReport = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.userImg)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
@@ -77,7 +77,7 @@
             // 
             this.eventButton.AutoSize = true;
             this.eventButton.Font = new System.Drawing.Font("Pobeda", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.eventButton.Location = new System.Drawing.Point(132, 117);
+            this.eventButton.Location = new System.Drawing.Point(132, 139);
             this.eventButton.Name = "eventButton";
             this.eventButton.Size = new System.Drawing.Size(115, 36);
             this.eventButton.TabIndex = 5;
@@ -89,7 +89,7 @@
             // 
             this.DirectoryButton.AutoSize = true;
             this.DirectoryButton.Font = new System.Drawing.Font("Pobeda", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.DirectoryButton.Location = new System.Drawing.Point(132, 312);
+            this.DirectoryButton.Location = new System.Drawing.Point(132, 334);
             this.DirectoryButton.Name = "DirectoryButton";
             this.DirectoryButton.Size = new System.Drawing.Size(115, 36);
             this.DirectoryButton.TabIndex = 6;
@@ -101,7 +101,7 @@
             // 
             this.contractButton.AutoSize = true;
             this.contractButton.Font = new System.Drawing.Font("Pobeda", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.contractButton.Location = new System.Drawing.Point(132, 182);
+            this.contractButton.Location = new System.Drawing.Point(132, 204);
             this.contractButton.Name = "contractButton";
             this.contractButton.Size = new System.Drawing.Size(115, 36);
             this.contractButton.TabIndex = 7;
@@ -113,7 +113,7 @@
             // 
             this.userImg.Image = global::LibEvent.Properties.Resources.event1;
             this.userImg.InitialImage = global::LibEvent.Properties.Resources.user;
-            this.userImg.Location = new System.Drawing.Point(68, 107);
+            this.userImg.Location = new System.Drawing.Point(68, 129);
             this.userImg.Name = "userImg";
             this.userImg.Size = new System.Drawing.Size(56, 56);
             this.userImg.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -124,7 +124,7 @@
             // 
             this.pictureBox1.Image = global::LibEvent.Properties.Resources.contract1;
             this.pictureBox1.InitialImage = global::LibEvent.Properties.Resources.user;
-            this.pictureBox1.Location = new System.Drawing.Point(68, 172);
+            this.pictureBox1.Location = new System.Drawing.Point(68, 194);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(56, 56);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -135,7 +135,7 @@
             // 
             this.pictureBox2.Image = global::LibEvent.Properties.Resources.directory1;
             this.pictureBox2.InitialImage = global::LibEvent.Properties.Resources.user;
-            this.pictureBox2.Location = new System.Drawing.Point(68, 302);
+            this.pictureBox2.Location = new System.Drawing.Point(68, 324);
             this.pictureBox2.Name = "pictureBox2";
             this.pictureBox2.Size = new System.Drawing.Size(56, 56);
             this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -148,7 +148,7 @@
             this.backButton.Font = new System.Drawing.Font("Pobeda", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.backButton.Image = global::LibEvent.Properties.Resources.arrows;
             this.backButton.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.backButton.Location = new System.Drawing.Point(110, 440);
+            this.backButton.Location = new System.Drawing.Point(110, 477);
             this.backButton.Name = "backButton";
             this.backButton.Size = new System.Drawing.Size(95, 38);
             this.backButton.TabIndex = 11;
@@ -161,7 +161,7 @@
             // 
             this.pictureBox3.Image = global::LibEvent.Properties.Resources.price;
             this.pictureBox3.InitialImage = global::LibEvent.Properties.Resources.user;
-            this.pictureBox3.Location = new System.Drawing.Point(68, 237);
+            this.pictureBox3.Location = new System.Drawing.Point(68, 259);
             this.pictureBox3.Name = "pictureBox3";
             this.pictureBox3.Size = new System.Drawing.Size(56, 56);
             this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -172,7 +172,7 @@
             // 
             this.priceButton.AutoSize = true;
             this.priceButton.Font = new System.Drawing.Font("Pobeda", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.priceButton.Location = new System.Drawing.Point(132, 247);
+            this.priceButton.Location = new System.Drawing.Point(132, 269);
             this.priceButton.Name = "priceButton";
             this.priceButton.Size = new System.Drawing.Size(115, 36);
             this.priceButton.TabIndex = 12;
@@ -184,32 +184,33 @@
             // 
             this.pictureBox4.Image = global::LibEvent.Properties.Resources.report;
             this.pictureBox4.InitialImage = global::LibEvent.Properties.Resources.user;
-            this.pictureBox4.Location = new System.Drawing.Point(68, 367);
+            this.pictureBox4.Location = new System.Drawing.Point(68, 389);
             this.pictureBox4.Name = "pictureBox4";
             this.pictureBox4.Size = new System.Drawing.Size(56, 56);
             this.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox4.TabIndex = 15;
             this.pictureBox4.TabStop = false;
             // 
-            // button1
+            // btnReport
             // 
-            this.button1.AutoSize = true;
-            this.button1.Font = new System.Drawing.Font("Pobeda", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.button1.Location = new System.Drawing.Point(132, 377);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(115, 36);
-            this.button1.TabIndex = 14;
-            this.button1.Text = "Отчеты";
-            this.button1.UseVisualStyleBackColor = true;
+            this.btnReport.AutoSize = true;
+            this.btnReport.Font = new System.Drawing.Font("Pobeda", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.btnReport.Location = new System.Drawing.Point(132, 399);
+            this.btnReport.Name = "btnReport";
+            this.btnReport.Size = new System.Drawing.Size(115, 36);
+            this.btnReport.TabIndex = 14;
+            this.btnReport.Text = "Отчеты";
+            this.btnReport.UseVisualStyleBackColor = true;
+            this.btnReport.Click += new System.EventHandler(this.btnReport_Click);
             // 
             // MainMenu
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(235)))), ((int)(((byte)(226)))), ((int)(((byte)(213)))));
-            this.ClientSize = new System.Drawing.Size(314, 488);
+            this.ClientSize = new System.Drawing.Size(314, 527);
             this.Controls.Add(this.pictureBox4);
-            this.Controls.Add(this.button1);
+            this.Controls.Add(this.btnReport);
             this.Controls.Add(this.pictureBox3);
             this.Controls.Add(this.priceButton);
             this.Controls.Add(this.backButton);
@@ -249,6 +250,6 @@
         private PictureBox pictureBox3;
         private Button priceButton;
         private PictureBox pictureBox4;
-        private Button button1;
+        private Button btnReport;
     }
 }

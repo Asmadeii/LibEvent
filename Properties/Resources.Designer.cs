@@ -293,6 +293,16 @@ namespace LibEvent.Properties {
         /// <summary>
         ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap deal {
+            get {
+                object obj = ResourceManager.GetObject("deal", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap delBtn {
             get {
                 object obj = ResourceManager.GetObject("delBtn", resourceCulture);
@@ -503,6 +513,16 @@ namespace LibEvent.Properties {
         /// <summary>
         ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap informative {
+            get {
+                object obj = ResourceManager.GetObject("informative", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap keyevent {
             get {
                 object obj = ResourceManager.GetObject("keyevent", resourceCulture);
@@ -526,6 +546,16 @@ namespace LibEvent.Properties {
         internal static System.Drawing.Bitmap light {
             get {
                 object obj = ResourceManager.GetObject("light", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap list {
+            get {
+                object obj = ResourceManager.GetObject("list", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
