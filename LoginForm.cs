@@ -15,14 +15,7 @@ namespace LibEvent
     {        
             public LoginForm()
         {
-            InitializeComponent();
-            
-
-            loginField.Text = "Введите логин";
-            loginField.ForeColor = Color.Gray;
-
-            passField.Text = "Введите пароль";
-            passField.ForeColor = Color.Gray;
+            InitializeComponent();         
         }
 
         private void closeButton_Click(object sender, EventArgs e)
@@ -55,7 +48,7 @@ namespace LibEvent
 
 
 
-        private void loginField_Enter(object sender, EventArgs e)
+       private void loginField_Enter(object sender, EventArgs e)
         {
             if (loginField.Text == "Введите логин")
             {
@@ -87,7 +80,7 @@ namespace LibEvent
                 passField.Text = "Введите пароль";
                 passField.ForeColor = Color.Gray;
             }
-        }
+        } 
     }
    
    

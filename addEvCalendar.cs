@@ -18,9 +18,6 @@ namespace LibEvent
             InitializeComponent();
            
 
-            fEvBox.Text = "Ввести время и название мероприятия";
-            fEvBox.ForeColor = Color.Gray;
-
         }       
 
         private void fEvBox_Enter(object sender, EventArgs e)

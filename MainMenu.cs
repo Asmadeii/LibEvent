@@ -14,40 +14,15 @@ namespace LibEvent
 
     public partial class MainMenu : Form
     {
-        /*Font myFont;
-        Font headFont;
-        private void LoadFont()
-        {
-            PrivateFontCollection librFont = new PrivateFontCollection();
-            librFont.AddFontFile("LibFont.ttf");
-            myFont = new Font(librFont.Families[0], 18);
-        }
-        private void LoadFont2()
-        {
-            PrivateFontCollection librFont = new PrivateFontCollection();
-            librFont.AddFontFile("LibFont.ttf");
-            headFont = new Font(librFont.Families[0], 32);
-        }*/
         public MainMenu()
         {
             InitializeComponent();
-            /*LoadFont();
-            LoadFont2();
-            autoLabel.Font=headFont;
-            closeButton.Font=myFont;            
-            backButton.Font=myFont;
-
-            eventButton.Font = myFont;
-            contractButton.Font = myFont;
-            priceButton.Font = myFont;*/
         }
 
         private void closeButton_Click(object sender, EventArgs e)
         {
             Application.Exit();
         }
-
-     
 
         private void DirectoryButton_Click(object sender, EventArgs e)
         {

@@ -112,7 +112,7 @@
             this.label2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(200)))), ((int)(((byte)(185)))), ((int)(((byte)(175)))));
             this.label2.Cursor = System.Windows.Forms.Cursors.Hand;
             this.label2.Font = new System.Drawing.Font("Perpetua Titling MT", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label2.Location = new System.Drawing.Point(893, 0);
+            this.label2.Location = new System.Drawing.Point(895, 0);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(21, 19);
             this.label2.TabIndex = 37;

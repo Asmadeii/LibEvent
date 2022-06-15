@@ -49,7 +49,7 @@ namespace LibEvent
                 "info@okcuvao.ru", 3852));
 
             table.Columns.Add("ИНН", typeof(long));
-            table.Columns.Add("Наименование заказчика", typeof(string));
+            table.Columns.Add("Наименование исполнителя", typeof(string));
             table.Columns.Add("Юридический адрес", typeof(string));
             table.Columns.Add("Система налогового учета ", typeof(string));
             table.Columns.Add("Контактный телефон", typeof(long));
