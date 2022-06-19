@@ -107,8 +107,8 @@ namespace LibEvent
         private void backButton_Click(object sender, EventArgs e)
         {
             this.Hide();
-            Contracts contracts = new Contracts();
-            contracts.Show();
+            Contractdocs contractdocs = new Contractdocs();
+            contractdocs.Show();
         }
 
         Point lastPoint;
@@ -124,6 +124,13 @@ namespace LibEvent
         private void Contractdocs_MouseDown(object sender, MouseEventArgs e)
         {
             lastPoint = new Point(e.X, e.Y);
+        }
+
+        private void docButton_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            Contracts contracts = new Contracts();
+            contracts.Show();
         }
     }
 }

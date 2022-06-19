@@ -55,8 +55,8 @@ namespace LibEvent
         private void contractButton_Click(object sender, EventArgs e)
         {
             this.Hide();
-            Contracts contracts = new Contracts();
-            contracts.Show();
+            Contractdocs contractdocs = new Contractdocs();
+            contractdocs.Show();
         }
 
         private void MainMenu_Load(object sender, EventArgs e)

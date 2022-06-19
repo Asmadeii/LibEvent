@@ -62,6 +62,7 @@
             this.label9 = new System.Windows.Forms.Label();
             this.condBox = new System.Windows.Forms.TextBox();
             this.label10 = new System.Windows.Forms.Label();
+            this.docButton = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.DogList)).BeginInit();
             this.SuspendLayout();
             // 
@@ -71,7 +72,7 @@
             this.backButton.Font = new System.Drawing.Font("Pobeda", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.backButton.Image = global::LibEvent.Properties.Resources.arrows;
             this.backButton.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.backButton.Location = new System.Drawing.Point(325, 550);
+            this.backButton.Location = new System.Drawing.Point(432, 550);
             this.backButton.Name = "backButton";
             this.backButton.Size = new System.Drawing.Size(95, 38);
             this.backButton.TabIndex = 102;
@@ -394,12 +395,28 @@
             this.label10.TabIndex = 117;
             this.label10.Text = "Код состояния договора";
             // 
+            // docButton
+            // 
+            this.docButton.AutoSize = true;
+            this.docButton.Font = new System.Drawing.Font("Pobeda", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.docButton.Image = global::LibEvent.Properties.Resources.file;
+            this.docButton.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.docButton.Location = new System.Drawing.Point(211, 550);
+            this.docButton.Name = "docButton";
+            this.docButton.Size = new System.Drawing.Size(110, 38);
+            this.docButton.TabIndex = 119;
+            this.docButton.Text = "Шаблон";
+            this.docButton.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.docButton.UseVisualStyleBackColor = true;
+            this.docButton.Click += new System.EventHandler(this.docButton_Click);
+            // 
             // Contractdocs
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(235)))), ((int)(((byte)(226)))), ((int)(((byte)(213)))));
             this.ClientSize = new System.Drawing.Size(740, 600);
+            this.Controls.Add(this.docButton);
             this.Controls.Add(this.condBox);
             this.Controls.Add(this.label10);
             this.Controls.Add(this.innEbox);
@@ -483,5 +500,6 @@
         private Label label9;
         private TextBox condBox;
         private Label label10;
+        private Button docButton;
     }
 }

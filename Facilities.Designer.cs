@@ -182,9 +182,9 @@
             this.facildoc.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.facildoc.Location = new System.Drawing.Point(13, 403);
             this.facildoc.Name = "facildoc";
-            this.facildoc.Size = new System.Drawing.Size(155, 38);
+            this.facildoc.Size = new System.Drawing.Size(120, 38);
             this.facildoc.TabIndex = 31;
-            this.facildoc.Text = "Документация";
+            this.facildoc.Text = "Описание";
             this.facildoc.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.facildoc.UseVisualStyleBackColor = true;
             this.facildoc.Click += new System.EventHandler(this.facildoc_Click);

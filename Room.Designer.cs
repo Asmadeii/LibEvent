@@ -142,9 +142,9 @@
             this.docButton.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.docButton.Location = new System.Drawing.Point(22, 343);
             this.docButton.Name = "docButton";
-            this.docButton.Size = new System.Drawing.Size(155, 38);
+            this.docButton.Size = new System.Drawing.Size(120, 38);
             this.docButton.TabIndex = 37;
-            this.docButton.Text = "Документация";
+            this.docButton.Text = "описание";
             this.docButton.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.docButton.UseVisualStyleBackColor = true;
             this.docButton.Click += new System.EventHandler(this.docButton_Click);
